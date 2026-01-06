@@ -1,0 +1,335 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: rgb(22, 21, 21);
+
+ }
+
+ body {
+   overflow: auto;
+ }
+
+
+ a {
+   text-decoration: none;
+
+ }
+
+ li {
+   list-style: none;
+ }
+
+ .nav-header {
+   width: 100%;
+   padding: 20px;
+   text-align: center;
+   background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 0, 0), rgb(141, 141, 3));
+ }
+
+ .navlink {
+
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 3rem;
+
+
+ }
+
+ .navlink a:hover {
+   opacity: 0.5;
+   transition: all 0.3s ease;
+
+ }
+
+ .mainContainer p,
+ h3 {
+   color: grey;
+ }
+
+ .mainContainer {
+
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+ }
+
+ .borderblack {
+   border: 15px solid rgb(0, 0, 0);
+   height: 100vh;
+   border-bottom: none;
+
+ }
+
+ .mainContainer .loremContainer {
+
+   width: 500px;
+   height: 400px;
+   line-height: 22px;
+   text-align: center;
+   order: 3;
+
+ }
+
+ .mainContainer h3 {
+   text-align: center;
+   padding: 10px;
+   font-size: xx-large;
+   margin-top: 1rem;
+
+ }
+
+ .imgContainer {
+   order: 1;
+   width: 700px;
+   height: 500px;
+   margin: auto;
+   border-radius: 0 30% 0;
+   border: 5px solid red;
+   margin-top: 3rem;
+   overflow: hidden;
+ }
+
+ .imgContainer img {
+
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+ }
+
+ .loremContainer button {
+
+   color: grey;
+   padding: 5px;
+   width: 120px;
+   font-size: larger;
+   border-radius: 20px 0 20px;
+   margin-top: 2rem;
+   background-color: none;
+   border: 2px solid red;
+   cursor: pointer;
+
+ }
+
+ .loremContainer button:hover {
+
+   transition: all 0.3s ease;
+   color: red;
+   border: 2px solid grey;
+
+ }
+
+ .loremContainer {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+
+ }
+
+
+
+
+
+ .buudy {
+
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   padding: 5px;
+
+
+ }
+
+ .buudy h1 {
+
+   text-align: center;
+   margin-bottom: 3rem;
+   margin-top: 2rem;
+   color: grey;
+
+ }
+
+ .aboutusImg {
+   display: flex;
+   justify-content: space-around;
+   width: 500px;
+   padding: 20px;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   overflow: hidden;
+
+
+ }
+
+ .secContainer {
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+ }
+
+ .aboutusImg img {
+
+   width: 100%;
+   border-radius: 65px 0 65px;
+   border: 4px solid red;
+ }
+
+ .secContainer button {
+
+   padding: 10px;
+   color: grey;
+   display: inline-block;
+   font-size: large;
+   border: 2px solid red;
+   border-radius: 0 15px 0;
+   cursor: pointer;
+
+
+
+ }
+
+ .secContainer button:hover {
+   transition: all 0.3s ease;
+   color: red;
+   border: 2px solid grey;
+
+ }
+
+ .seconContainer {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+ }
+
+ .aboutusImg2 {
+
+   order: 2;
+   margin: 2rem;
+   padding: 20px;
+   margin-top: 5rem;
+   margin-bottom: 2rem;
+
+ }
+
+ .aboutusImg2 img {
+   border-radius: 0 80px 0;
+   border: 4px solid red;
+
+
+ }
+
+ .seconContainer p {
+   margin-left: 2rem;
+   text-align: center;
+   line-height: 22px;
+   overflow: hidden;
+ }
+
+ /* +++++++++++++++++++++++++++++ */
+
+ /*   Blog page */
+
+
+ .blogpage {
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   border: 10px solid rgb(255, 255, 255);
+   padding: 5px;
+   height: 100vh;
+
+ }
+
+ .blogpage h1 {
+   text-align: center;
+   margin-bottom: 1rem;
+   margin-top: 2rem;
+   color: grey;
+ }
+
+ .blogsec p {
+
+   border: 5px solid red;
+   text-align: center;
+   width: 430px;
+   margin: 0 auto;
+   margin-top: 4rem;
+   padding: 6rem;
+   border-radius: 50%;
+   overflow: auto;
+   background-color: aliceblue;
+   margin-bottom: 4rem;
+   line-height: 22px;
+
+ }
+
+ button {
+
+   margin-top: 4rem;
+   font-size: large;
+   border: 2px solid red;
+   padding: 20px;
+   cursor: pointer;
+   border-radius: 50%;
+   margin: 0 auto;
+
+
+ }
+
+ button:hover {
+   transition: all 0.3s ease;
+   color: red;
+   border: 2px solid grey;
+
+ }
+
+ /* +++++++++++++++++++++++++++++++++++++++++ */
+
+
+ .productpage {
+   padding: 1rem;
+
+
+ }
+
+ .productpage h1 {
+
+   text-align: center;
+   margin-bottom: 3rem;
+   margin-top: 2rem;
+   color: grey;
+
+ }
+
+ .products {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 50px;
+ }
+
+ .imgdiv {
+
+   width: 100%;
+   height: 400px;
+
+
+
+
+ }
+
+ .imgdiv img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 20%;
+   border: 5px solid red;
+   padding: 3px;
+ }
